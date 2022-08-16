@@ -15,6 +15,7 @@ public class PrimeNumber {
                     if (numbers[x] % y == 0) {
                         first = false;
                         System.out.println(numbers[x] + " is not prime number for y = " + y);
+                        break;
                     }
                 }
             }
@@ -23,4 +24,5 @@ public class PrimeNumber {
             }
         }
     }
+
 }
